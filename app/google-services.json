@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215750187141",
+    "project_id": "fir-friendlychat-76733",
+    "storage_bucket": "fir-friendlychat-76733.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215750187141:android:96ac3b9c3ea683e6b031ec",
+        "android_client_info": {
+          "package_name": "edu.sahba.firebasefriendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215750187141-5m23me88t02i4q9hg4pvfn8e5pe24vf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAMyo7c2KfrswoQDvleAaP3TkGmjnkNHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215750187141-5m23me88t02i4q9hg4pvfn8e5pe24vf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_host_main"
+    app:startDestination="@id/chatListFragment">
+
+    <fragment
+        android:id="@+id/newMessageFragment"
+        android:name="edu.sahba.firebasefriendlychat.NewMessageFragment"
+        android:label="NewMessageFragment">
+        <action
+            android:id="@+id/action_newMessageFragment_to_chatListFragment"
+            app:destination="@id/chatListFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/chatListFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_newMessageFragment_to_chatLogFragment"
+            app:destination="@id/chatLogFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatListFragment"
+        android:name="edu.sahba.firebasefriendlychat.ChatListFragment"
+        android:label="ChatListFragment">
+        <action
+            android:id="@+id/action_chatListFragment_to_newMessageFragment"
+            app:destination="@id/newMessageFragment"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_chatListFragment_to_chatLogFragment"
+            app:destination="@id/chatLogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatLogFragment"
+        android:name="edu.sahba.firebasefriendlychat.ChatLogFragment"
+        android:label="ChatLogFragment">
+        <action
+            android:id="@+id/action_chatLogFragment_to_chatListFragment"
+            app:destination="@id/chatListFragment" />
+    </fragment>
+</navigation>

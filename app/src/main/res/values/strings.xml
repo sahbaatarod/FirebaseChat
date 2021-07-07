@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Firebase Friendly Chat</string>
+    <string name="EmailEtHint">Email</string>
+    <string name="passwordTxtHint">Password</string>
+    <string name="loginTxt">Login</string>
+    <string name="dontHaveAccountTxt">Don\'t have account?</string>
+    <string name="firstnameHint">Firstname</string>
+    <string name="lastnameHint">Lastname</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="haveAccountTxt">Already have an account?</string>
+    <string name="registerTxt">Register</string>
+    <string name="logoutTxt">Logout</string>
+    <string name="appName">Firebase Friendly Chat</string>
+    <string name="sign_out_txt">Sign out</string>
+    <string name="new_message_txt">New message</string>
+    <string name="select_a_user_txt">Select a user</string>
+    <string name="enter_message_txt">Enter message</string>
+    <string name="send_txt">Send</string>
+    <string name="updateTxt">Update</string>
+    <string name="anonymous_login_txt">Anonymous login</string>
+    <string name="tap_on_the_image_to_change_profile_picture_txt">Tap on the image to change profile picture</string>
+    <string name="no_chats_available">No chats available!</string>
+    <string name="start_a_new_chat">Start a new chat</string>
+    <string name="update_user_info">Update user info</string>
+</resources>
